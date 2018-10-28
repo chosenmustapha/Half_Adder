@@ -1,0 +1,11 @@
+Fitter Status : Successful - Thu Oct 18 23:52:53 2018
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Half_Adder
+Top-level Entity Name : Half_Adder
+Family : MAX II
+Device : EPM240F100C4
+Timing Models : Final
+Total logic elements : 2 / 240 ( < 1 % )
+Total pins : 4 / 80 ( 5 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

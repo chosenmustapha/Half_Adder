@@ -1,0 +1,21 @@
+|Half_Adder
+A => XOR_GATE:Q1.A
+A => AND_GATE:Q2.A
+B => XOR_GATE:Q1.B
+B => AND_GATE:Q2.B
+Sum << XOR_GATE:Q1.C
+Carry << AND_GATE:Q2.C
+
+
+|Half_Adder|XOR_GATE:Q1
+A => C.IN0
+B => C.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Half_Adder|AND_GATE:Q2
+A => C.IN0
+B => C.IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
